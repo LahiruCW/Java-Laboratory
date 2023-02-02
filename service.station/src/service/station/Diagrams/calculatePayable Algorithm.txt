@@ -1,0 +1,18 @@
+The Algorithm for calculatePayable() Method
+parameters: Vehicle[]
+
+This method must be implemented in the main driver program
+for the easy implementation I seperate this method to seperate methods
+
+
+totalPaymentsWant()
+1. iterate through the Vehicle List
+2. call the calculateTotalPayment(getRequestedStatus)
+3. store it in a static totalPayments variable
+
+
+4. iterate through the statusCompleteMap[][]
+5. //check the condition
+6. create a new array with row values // completed status row
+7. pass it to the calculateTotalPayments()
+8. store the value in static variable totalNeed
