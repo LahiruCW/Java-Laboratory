@@ -1,4 +1,6 @@
-package vehicle.provider.Models;
+package vehicle.provider.Models.GPSModel;
+
+import vehicle.provider.Models.Vehicle;
 
 /**
  *
@@ -9,6 +11,7 @@ public class LuxuryCar extends Vehicle{
     
     private int noBmw;
     private int noMercedezeBenz;
+    private int insuaranceCharge;
     
     //constructors
     public LuxuryCar(){
@@ -51,5 +54,19 @@ public class LuxuryCar extends Vehicle{
             
             this.noMercedezeBenz = noMercedezeBenz;
         }
+    }
+
+    /**
+     * @return the insuaranceCharge
+     */
+    public int getInsuaranceCharge() {
+        return insuaranceCharge;
+    }
+
+    /**
+     * @param insuaranceCharge the insuaranceCharge to set
+     */
+    public void setInsuaranceCharge(int insuaranceCharge) {
+        this.insuaranceCharge = insuaranceCharge;
     }
 }

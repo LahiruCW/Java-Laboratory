@@ -11,6 +11,11 @@ public abstract class Vehicle {
     
     private String licensePlateNo;
     private String model;
+    
+    //constructors
+    public Vehicle(){
+        
+    }
 
     /**
      * @return the licensePlateNo
